@@ -1,0 +1,43 @@
+.m-input {
+    padding: 0 8px 0 12px;
+    border-radius: 4px;
+    height: 36px;
+    outline: none;
+    border: 1px solid #babec5;
+    min-width: 300px;
+}
+
+.m-input.m-input-textarea{
+    height: 60px;
+    padding: 16px 16px;
+}
+
+.m-input:hover {
+    outline: 1px solid #e2e2e2;
+}
+
+.m-input:focus {
+    border: 1px solid #2ca01c;
+}
+
+.m-input::placeholder {
+    font-size: 12px;
+    color: #949494;
+    font-style: italic;
+}
+
+.m-input-title {
+    font-size: 12px;
+    font-family: Notosans-Semibold;
+    padding-bottom: 8px;
+    white-space: nowrap;
+}
+
+
+.m-input-error {
+    border-color: #E60000;
+
+}
+
+
+
