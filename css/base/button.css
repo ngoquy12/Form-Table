@@ -10,6 +10,7 @@
 
 .m-button:hover {
     background-color: #35bf22;
+    cursor: pointer;
 }
 
 .m-button:active,
